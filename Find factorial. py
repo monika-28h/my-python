@@ -1,0 +1,11 @@
+# Function to find factorial of a number using a loop
+def factorial(n):
+    fact = 1
+    for i in range(1, n + 1):
+        fact *= i
+    return fact
+
+# Example usage
+num = 5
+result = factorial(num)
+print("The factorial of", num, "is:", result)

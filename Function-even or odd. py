@@ -1,0 +1,8 @@
+# Function to check whether a number is even or odd
+def is_even(number):
+    if number % 2 == 0:
+        print(number, "is even")
+    else:
+        print(number, "is odd")
+
+# Example usage
